@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+top: 30px;
+left: 80px;
+position: absolute;
+transform: -50, -50;
+box-sizing: border-box;
+padding: 30px 70px;
+padding-left: 60%;
+
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+}
+
+.one {
+    width: 20vw;
+    height: 60vh;
+    margin-left: 16rem;
+    margin-top: 8rem;
+    border-radius: 3rem;
+}
+
+h1 {
+    margin: 0;
+    padding-left: 120px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 20x;
+    font-weight: bold;
+
+}
+
+h3 {
+    margin: 0;
+    padding-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    color: black;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    /* border-bottom: 20px;  */
+}
+
+input[type="email"],
+[type="password"] {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+
+input[type="submit"] {
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: lightgreen;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
