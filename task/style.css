@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.black{
+    color: white;
+}
+.white{
+    color: white;
+}
+
+/* navbar css */
+.navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+.navbar ul li a{
+    position: relative;
+    padding: 20px;
+}
+h2{
+    color: white;
+    /* font-size: 40px; */
+}
+h3{
+    color: white;
+    /* font-size: 30px; */
+}
+a{
+    text-decoration: none;
+}
+.ctn{
+    background-color: red;
+    padding: 3px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+/* banner */
+.banner{
+    padding: 40px 200px;
+    background-image: url("images/image2.jpg");
+}
+/* places */
+.place{
+    padding: 10px 100px;
+}
+.section-heading h1{
+    font-size: 30px;
+    text-align: center;
+}
+/* place item */
+.place-main{
+    display: flex;
+    justify-content: space-between;
+}
+.place-item{
+    width: 30%;   
+    /* border: 1px solid black; */
+}
+.box{
+    padding-left: 8rem;
+    top: 4rem;
+}
+button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* text-align: center; */
+    /* justify-content: center; */
+
+}
